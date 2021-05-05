@@ -12,6 +12,10 @@ google font api : https://fonts.google.com/
     font-family: 'Raleway', sans-serif;
 }
 
+body {
+	background-color: #705E78;
+}
+
 /*브라우저 별로 설정이 다르기때문에 margin, padding값을 0px로 초기화해준다*/
 body,h1,h2,li,ul{
     margin: 0px;
@@ -80,14 +84,17 @@ ul{
 }
 
 li{
+	
     font-size: 11px;
     list-style-type: square;
     line-height: 19px;
 }
 li.main{
+	font-weight: 700;
     list-style-type: none;
 }
 li.sub{
+	font-weight: 600;
     list-style-type: decimal;
 }
 
@@ -130,6 +137,7 @@ img.profilepic{
     width: 100px;
     height: 100px;
     object-fit: cover;
+	margin-left: 15px;
 }
 
 div.title-box{
@@ -139,6 +147,7 @@ div.title-box{
 }
 
 div.mainbox{
+	background-color: #FEA443;
     border: 1px solid burlywood;
     width: 800px;
     /*
