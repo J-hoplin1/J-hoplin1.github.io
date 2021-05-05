@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+/* 
+
+* : 이 문서(html)의 모든 tag에 적용한다는 의미이다.
+
+google font api : https://fonts.google.com/
+
+*/
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*브라우저 별로 설정이 다르기때문에 margin, padding값을 0px로 초기화해준다*/
+body,h1,h2,li,ul{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1{
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+p.subintroduction{
+    font-size: 16px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+p.about-me-text{
+    font-size: 10px;
+    line-height: 16px;/*폰트사이즈의 160%정도 크기의 줄간격이 가장 보기 좋다고 한다.*/
+}
+
+p.experience-name{
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+}
+
+p.year{
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+p.introduce{
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+}
+
+p.position{
+    font-size: 10px;
+    text-align: left;
+    font-weight: 300;
+}
+
+p.desc-text{
+    font-size: 11px;
+    text-align: left;
+}
+ul{
+    padding-left: 30px;
+}
+
+li{
+    font-size: 11px;
+    list-style-type: square;
+    line-height: 19px;
+}
+li.main{
+    list-style-type: none;
+}
+li.sub{
+    list-style-type: decimal;
+}
+
+p.sub-text{
+    font-size: 11px;
+    text-align: left;
+    padding-left: 25px;
+}
+
+footer{
+    text-align: center;
+    font-size: 16px;
+    background-color: #622619;
+    color: white;
+    padding: 20px;
+}
+
+p.experience-name:hover{
+    color: #562F13;
+}
+
+section{
+    margin-bottom: 24px;
+}
+
+div.float-wrapper{
+    overflow: hidden; /*float를 받는 텍스트가 다른 태그의영향을 받지 않도록 한다.*/
+}
+
+div.main-float{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+div.profile-img{
+    float: left;
+}
+
+img.profilepic{
+    border-radius: 70%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+div.title-box{
+    padding-top: 20px;
+    text-align: right;
+    float: right;
+}
+
+div.mainbox{
+    border: 1px solid burlywood;
+    width: 800px;
+    /*
+    Box Model값에 대해서 한가지 주의할 점이 있다
+    margin-left, margin-right auto를 통해 가운데 설정을 하는거에 있어서
+    기본적인 box-model값 적용후 적용된다.
+    */
+    margin: 30px; 
+    padding: 30px; /* content와 border사이에 간격을 준다.*/
+    /*
+    그렇다면 이 div레이아웃 박스를 가운데로 정렬하려면 어떻게 해야할까? margin-left, margin-right 속성을 auto로 설정해주면 된다.
+    auto는 가로 중앙에 배치한다는 의미이다. 이는 좌우 여백을 균일하게 맞춰준다.
+    */
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 5px 20px 20px rgba(0, 0, 0, 0.5)
+
+    /* box-shadow 
+    첫번째 숫자 : 가로로 그림자가 어떻게 뻗어나가는가
+    양값이면 오른쪽, 음값이면 왼쪽으로 그림자가 나아간다
+    
+    두번쨰 숫자 : y축으로 움직이는것
+
+    세번째 숫자 : 그림자의 흐림정도(작아질수록 짙어진다.)
+
+    네번쨰 숫자 : 그림자의 퍼진 정도
+
+    rgba(빨강채도,녹색채도,파랑채도,투명도(alpha, 백분율로 투명도가 됨))
+
+    */
+}
+
+
+img.sns-img{
+    width: 12px;
+    height: 12px;
+}
+
+div.mysnslink{
+    text-align: right;
+}
