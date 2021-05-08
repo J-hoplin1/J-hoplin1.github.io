@@ -29,7 +29,35 @@ h1{
     font-style: normal;
 }
 
-h2{
+
+div.middle-title{
+    border-bottom: 1px solid #ebebeb;
+    overflow: hidden;
+}
+
+div.middle-left{
+    padding-bottom: 10px;
+    float: left;
+}
+
+h2.text-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #282828;
+}
+
+div.middle-right{
+    padding-top: 4.8px;
+    padding-right: 10px;
+    float: right;
+}
+
+img.anc-btn{
+    width: 15px;
+    height: 15px;
+}
+
+h2.middle-title{
     font-size: 20px;
     font-weight: 600;
     color: #282828;
@@ -37,6 +65,9 @@ h2{
     padding-bottom: 15px;
     margin-bottom: 10px;
 }
+
+
+
 p.subintroduction{
     font-size: 16px;
     color: #7c7c7c;
