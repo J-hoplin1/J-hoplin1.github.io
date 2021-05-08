@@ -122,6 +122,7 @@ li{
 }
 li.main{
 	font-weight: 700;
+	color: #282828;
     list-style-type: none;
 }
 li.sub{
@@ -179,7 +180,6 @@ div.title-box{
 
 a.schlink{
 	text-decoration: none;
-	color: #000000;
 }
 
 div.mainbox{
