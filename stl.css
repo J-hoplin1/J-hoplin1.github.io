@@ -177,6 +177,11 @@ div.title-box{
     float: right;
 }
 
+a.schlink{
+	text-decoration: none;
+	color: #000000;
+}
+
 div.mainbox{
 	background-color: #FEA443;
     border: 1px solid burlywood;
